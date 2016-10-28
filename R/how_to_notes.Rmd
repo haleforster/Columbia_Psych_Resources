@@ -18,20 +18,35 @@ How do you resolve disputes?
 What is bash good for?
 
 Step 1: To start, back up your hard drive - you will probably mess something up.
+
 ## What is git? 
 Git is a version control system that you use locally. Github is a host service to facilitate collaboration with git. There are others besides github like gitlab, which no one uses.
-
-
 
 ## Getting started:
 Make sure you can run git on your machine - Install graphical user interface. Google github gui. Once it's downloaded, click "clone or download" on github website. "open in desktop" downloads to your computer.
 
 ## Github environment
-Everytime you open a shared project, you need to download changes from the server. Use the "pull" command in RStudio. Open the project that is relevant to this repository. Everyone should share the same ".Rproj" file.
+Everytime you open a shared project, you need to download changes from the server. Use the "pull" command in RStudio. Open the project that is relevant to this repository. Everyone should share the same ".Rproj" file. (This file is not very important - just allows you to sync to git using RStudio).
 
 Workflow: "pull" down recent changes. "commit" changes (make git aware of them). "push" to github (cloud).
 
-## Next, 
+## How to roll back changes
+Through github desktop, you can roll back individaul commits.
+
+## What to put on github?
+Don't put data on github. It's probably not as secure as you want it to be. 
+
+##You can use git to track version control locally on your computer.
+Can commit to local commit repository to see how project evolved or go back in time to a specific point. That is the git workflow for a one person project. Track files over time. Won't have four analysis scripts, the file evolves over time. You left notes to describe what you changed, when. Useful for R scripts, python, matlab. Naming your commits is important to tell yourself what you changed at each point in time.
+
+##How to collaborate
+One option: keep master branch as a version that works. Have everyone work in a different branch. When it works, merge it back into master. If each person is working on the same line of code, it will create a merge conflict. You have to manually fix that.
+
+##Do you need git?
+In some cases, it will just make things more complicated. If you're not collaborating, you don't need it. 
+
+
+
 
 ## Best practices:
 Naming: don't mix underscores and upper camel case. ("Columbia_Psych_Resources"" == bad)
