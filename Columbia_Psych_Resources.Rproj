@@ -1,7 +1,6 @@
 Version: 1.0
 
 RestoreWorkspace: Default
-<<<<<<< HEAD
 SaveWorkspace: Default
 AlwaysSaveHistory: Default
 
@@ -21,5 +20,4 @@ NumSpacesForTab: 4
 Encoding: UTF-8
 
 RnwWeave: knitr
->>>>>>> ad60d4831460f8da9e5398bbb4b7bec33b5da149
 LaTeX: pdfLaTeX
