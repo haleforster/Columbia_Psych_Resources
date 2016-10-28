@@ -10,3 +10,5 @@ ggplot(d, aes(x,y)) +
     scale_y_continuous(expand=c(0, 0))
 
 ggsave("../output/awesome_density.pdf")
+
+# Hello, this is Luis
