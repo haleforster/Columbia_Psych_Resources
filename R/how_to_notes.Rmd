@@ -1,0 +1,37 @@
+---
+title: "Github QA Notes 10-28"
+author: "Hale Forster"
+date: "10/28/2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+### Our questions:
+Collaboration - how to branch?
+Sharing r studio files - need to add to gitignore?
+How do you go back?
+How do you resolve disputes?
+What is bash good for?
+
+Step 1: To start, back up your hard drive - you will probably mess something up.
+## What is git? 
+Git is a version control system that you use locally. Github is a host service to facilitate collaboration with git. There are others besides github like gitlab, which no one uses.
+
+
+
+## Getting started:
+Make sure you can run git on your machine - Install graphical user interface. Google github gui. Once it's downloaded, click "clone or download" on github website. "open in desktop" downloads to your computer.
+
+## Github environment
+Everytime you open a shared project, you need to download changes from the server. Use the "pull" command in RStudio. Open the project that is relevant to this repository. Everyone should share the same ".Rproj" file.
+
+Workflow: "pull" down recent changes. "commit" changes (make git aware of them). "push" to github (cloud).
+
+## Next, 
+
+## Best practices:
+Naming: don't mix underscores and upper camel case. ("Columbia_Psych_Resources"" == bad)
